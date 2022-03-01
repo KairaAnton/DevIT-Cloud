@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  
+  .square {
+  
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+  
+    background: #03a9f4;
+  
+    animation: 6s linear infinite rotate;
+  }
+  
+  
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+
+    0% {
+        background: red;
+      }
+    33% {
+       background: red;
+      }
+    34% {
+          background: orangered;
+        }
+    66% {
+          background: orangered;
+        }
+    67% {
+          background: green;
+        }
+        
+    100% {
+        background: green;
+      }
+      
+  }

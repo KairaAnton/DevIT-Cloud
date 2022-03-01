@@ -1,0 +1,33 @@
+ ===Linux===
+
+1. cd var/www/html - вошли в папку html
+    ls -d */ - вывели список всех папок в папке html
+    
+2. cd logs - вошли в папку logs
+    cat access.txt error.txt > all.txt - объеденили файлы с расширением .txt в новый файл all.txt
+
+3. 
+
+4. cd .. - вернулись в папку html
+    cd images - вошли в папку images
+    dir *.jpg - вывели все файлы с расширением .jpg
+    
+5. cd .. - вернулись в папку html
+    cd logs - вошли в папку logs
+    > access.txt - удалили содержимое файла access.txt
+    
+6. cd .. - вернулись в папку html
+    cd logs - вошли в папку logs
+    find  -size +2048b - вывели файлы размер которых более 2 мегабайт
+
+
+ ===Git===
+ 
+ 
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://git@example.com:example/test.git
+git push -u origin main
+
+
